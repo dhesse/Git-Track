@@ -1,0 +1,34 @@
+Git-Track -- Minimalistic Bug-Tracker for Git.
+==============================================
+
+This simple bug-tracker is intended for the everyday coding, when you
+want to write down some issues you want/have to fix later, but a
+full-blown bug tracking such as github etc. is simply overkill.
+
+Features:
+---------
+
+Each bug/issue has a(n)
+
+* unique id
+* message/comment
+* date/time of creation
+* git commit associated with it
+  by default the current HEAD commit at the time of creation
+* status (open/closed)
+* priority
+
+Usage:
+------
+
+The basic usage is as simple as 
+
+1) *optional* make an alias 
+
+alias g-tr="python /path/to/git-track/track.py"
+
+2) use
+
+g-tr
+
+will give you an overview of the commands.
